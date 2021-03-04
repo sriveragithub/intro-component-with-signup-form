@@ -1,0 +1,78 @@
+:root {
+    --red: hsl(0, 100%, 74%);
+    --green: hsl(154, 59%, 51%);
+    --accentBlue: hsl(248, 32%, 49%);
+    --neutralDarkBlue: hsl(249, 10%, 26%);
+    --neutralGrayishBlue: hsl(246, 25%, 77%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+main {
+    width: 50%;
+    height: 100vh;
+    float: left;
+    display: grid;
+    align-content: center;
+}
+
+.hero-container {
+    padding: 2rem;
+}
+
+p {
+    margin-top: 2rem;
+}
+
+aside {
+    width: 50%;
+    height: 100vh;
+    float: left;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.form-container {
+    padding: 1rem;
+}
+
+form {
+    padding: 1rem;
+}
+
+input {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+button {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+input {
+    display: block;
+}
+
+span {
+    display: block;
+    font-size: .625rem;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
